@@ -1,0 +1,9 @@
+-isystem./bdk
+-isystem./ums-loader/gfx
+-I./ums-loader
+-DGFX_INC="../ums-loader/gfx/gfx.h"
+-nostdlib
+-Wall
+-Wno-array-bounds
+-Wno-stringop-overread
+-Wno-stringop-overflow
